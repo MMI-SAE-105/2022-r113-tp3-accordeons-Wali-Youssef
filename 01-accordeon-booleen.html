@@ -17,7 +17,13 @@
         <p x-show="isOpen" x-transition> texte pour montrer l'exemple </p>
       </section>
      Lorem ipsum dolor sit amet.
+
+     <section x-data="{isOpen:false}">
+      <button @click="isOpen = ! isOpen">bouton2</button>
+      <p x-show="isOpen" x-transition> texte pour montrer l'exemple </p>
+    </section>
  
+
         </section>
         </div>
   
