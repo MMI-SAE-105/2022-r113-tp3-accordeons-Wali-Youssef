@@ -14,7 +14,8 @@
     <div class="accordeon">
       <section x-data="{isOpen:true}">
         <button @click="isOpen = !isOpen">Lorem.</button> 
-        <p x-show="isOpen">
+        <p x-show="isOpen" x-transition> texte pour montrer l'exemple </p>
+      </section>
      Lorem ipsum dolor sit amet.
  
         </section>
