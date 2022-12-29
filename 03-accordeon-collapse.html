@@ -17,5 +17,9 @@
       <p x-show="menuIsOpen === 1" x-collapse.duration.1000ms>texte </p>
    
     </section>
+    <section>
+      <button @click="menuIsOpen = (menuIsOpen === 2)?0:2">bouton 2</button>
+      <p x-show="menuIsOpen === 2" x-collapse.duration.1000ms>texte pour 2eme</p>
+    </section>
   </body>
 </html>
