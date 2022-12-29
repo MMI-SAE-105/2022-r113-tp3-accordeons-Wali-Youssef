@@ -21,5 +21,10 @@
       <button @click="menuIsOpen = (menuIsOpen === 2)?0:2">bouton 2</button>
       <p x-show="menuIsOpen === 2" x-collapse.duration.1000ms>texte pour 2eme</p>
     </section>
+    <section>
+      <button @click="menuIsOpen = (menuIsOpen === 3)?0:3">bouton 3</button>
+      <p x-show="menuIsOpen === 3" x-transition.origin.top.scale>texte pour 3eme</p>
+  </div>
+    
   </body>
 </html>
