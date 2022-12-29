@@ -13,5 +13,12 @@
     <h1>Accordéon avec des booléens</h1>
     <div class="accordeon">
       <section x-data="{isOpen:true}">
-  </body>
+        <button @click="isOpen = !isOpen">Lorem.</button> 
+        <p x-show="isOpen">
+     Lorem ipsum dolor sit amet.
+ 
+        </section>
+        </div>
+  
+      </body>
 </html>
